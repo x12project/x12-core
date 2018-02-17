@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ ! -d "$SNAP_USER_DATA/etc" ]; then
+  mkdir $SNAP_USER_DATA/etc/
+  cp -R $SNAP/etc/x12coind.conf $SNAP_USER_DATA/etc/x12coind.conf
+fi
+
+exec "$SNAP/bin/x12coind" "$@"

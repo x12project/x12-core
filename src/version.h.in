@@ -1,0 +1,4 @@
+#define X12_VERSION_TAG "@VERSIONTAG@"
+#define X12_VERSION "0.10.3.1"
+#define X12_RELEASE_NAME "Wolfram Warptangent"
+#define X12_VERSION_FULL X12_VERSION "-" X12_VERSION_TAG

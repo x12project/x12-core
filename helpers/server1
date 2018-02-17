@@ -1,0 +1,1 @@
+ssh -i ~/Documents/Documents/ddf/ddfserver1.pem ubuntu@ec2-13-58-154-64.us-east-2.compute.amazonaws.com

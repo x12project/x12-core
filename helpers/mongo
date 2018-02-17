@@ -1,0 +1,2 @@
+ssh -i ~/Documents/Documents/ddf/ddfserver1.pem bitnami@ec2-18-220-103-83.us-east-2.compute.amazonaws.com
+
